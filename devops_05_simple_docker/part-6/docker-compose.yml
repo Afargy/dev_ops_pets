@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  part_5:
+    build: ./part-5
+  new_container:
+    build: .
+    ports:
+      - 80:8080
